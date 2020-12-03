@@ -83,12 +83,18 @@ p{
 	color: #fff;
 }
 
+.bg-primary{
+	background: #93cb52;
+	color: #fff;
+}
+
 /*NAVBAR*/
 #navbar{
 	display: flex;
 	position: sticky;
 	top: 0;    /* when position is sticky must add top or bottom /left/right 0*/
 	background:#333;
+
 	color: #fff;
 	justify-content: space-between;
 	z-index: 1;
@@ -171,12 +177,39 @@ p{
 /* CLIENTS*/
 #clients #container .items{
 	display: flex;
-	justify-content:center;
+	justify-content:space-evenly;
 	
 
 }
 #clients #container .items img{
 	display: block;
-	margin: 0.7rem;
 	width: 60%;
+	margin: 0.75rem;
+}
+
+/* SECTION : CONTACT*/
+#contact{
+	display: flex;
+}
+
+#contact .map,
+#contact .contact-form{
+	flex: 1;
+}
+
+#contact .contact-form .form-group{
+	margin: 0.75rem;
+}
+
+#contact .contact-form .form-group label{
+	display: block;
+}
+#contact .contact-form .form-group textarea,
+#contact .contact-form .form-group input{
+	width: 100%;
+	padding: 0.5rem;
+}
+.map{
+	background:url('/img/map.jpg')
+	 no-repeat center center/cover;
 }
