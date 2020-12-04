@@ -11,10 +11,6 @@
 	margin-bottom: 0;
 }
 
-#contact .map{
-	flex: 2;
-}
-.map{
-	background:url('/img/map.jpg')
-	 no-repeat center center/cover;
+#contact div .map{
+	flex: 1;
 }

@@ -208,8 +208,3 @@ p{
 #contact .contact-form .form-group input{
 	width: 100%;
 	padding: 0.5rem;
-}
-.map{
-	background:url('/img/map.jpg')
-	 no-repeat center center/cover;
-}
